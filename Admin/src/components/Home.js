@@ -3,8 +3,11 @@ import "../styles/Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="homeContainer">
       <h2>Admin Home Page</h2>
+      <div className="options">
+        <button>Create Product</button>
+      </div>
     </div>
   );
 };
