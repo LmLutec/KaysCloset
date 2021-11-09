@@ -20,7 +20,7 @@ app.use(function (req, res, next) {
 app.get("/", (req, res) => res.send("API running"));
 
 // define routes
-app.use("/kscloset", require("./routes/product-routes"));
+app.use("/kscloset/", require("./routes/product-routes"));
 
 const PORT = process.env.PORT || 5000;
 

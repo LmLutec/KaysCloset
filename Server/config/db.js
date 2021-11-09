@@ -5,7 +5,6 @@ const connectDB = async () => {
     await mongoose.connect("mongodb://localhost/kscloset", {
       useUnifiedTopology: true,
       useNewUrlParser: true,
-      useFindAndModify: false,
     });
 
     console.log("MongoDB connected");
